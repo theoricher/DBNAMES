@@ -28,7 +28,9 @@ Please refer to the General Public Licence http://www.gnu.org/ or LiCENSE.MD
 	$tab_options['form_name']=$form_name;
 	$tab_options['table_name']=$table_name;
 	echo open_form($form_name);
-	$list_fields=array( 'name' => 'name',
+	$list_fields=array(
+		'name' => 'name',
+		'file' => 'file'
 	);
 	$list_col_cant_del=$list_fields;
 	$default_fields= $list_fields;
